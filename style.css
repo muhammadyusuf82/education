@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-1{
+    background-color: rgb(227, 227, 227);
+}
+.bg-2{
+    background-color: rgb(95,18,208);
+}
+.bg-3{
+    position: relative;
+    background: url(/imgs/img-6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 90px;
+}
+.p-8{
+    padding-top: 9rem !important;
+    padding-bottom: 13rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.section-one{
+    background: url(/imgs/img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+}
+.section-four{
+    background: url(/imgs/img-5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    transition: all .3s;
+}
+.hover:hover{
+    border-bottom: 1px solid white;
+}
+.custom-button{
+    border: 2px solid rgb(73,133,255);
+    background-color: rgb(73,133,255);
+    color: white;
+    border-radius: 30px;
+    transition: all .5s;
+}
+.custom-button:hover{
+    background-color: white;
+    color: rgb(73,133,255);
+}
+.custom-button-2{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.p-6{
+    padding-top: 4rem !important;
+    padding-bottom: 12rem !important;
+}
+.px-6{
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+.bottom{
+    padding-bottom: 140px;
+}
+.top{
+    position: relative;
+    top: -150px;
+}
+.footer{
+    position: relative;
+    top: 100px;
+}
+.custom-button-3{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: rgb(73, 133, 255);
+    color: white;
+}
+input{
+    border-radius: 30px;
+    border: 1px solid gray;
+    box-shadow: 10px black;
+}
+@media screen and (max-width:325px){
+    .custom-button-3{
+        border-radius: 0px;
+    }
+    input{
+        border-radius: 0px;
+    }
+}
